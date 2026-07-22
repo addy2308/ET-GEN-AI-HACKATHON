@@ -1,0 +1,6 @@
+{
+  "name": "Urban Air Quality Intelligence AI",
+  "description": "AI-powered urban air quality intelligence platform fusing CAAQMS station data, satellite imagery, mobility feeds, and source attribution for proactive smart city intervention.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

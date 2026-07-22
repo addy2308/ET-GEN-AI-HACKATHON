@@ -33,30 +33,30 @@ City administrations require more than passive monitoring dashboards. They need:
 
 ##  Alignment with Hackathon Evaluation Criteria
 
-### 1. Relevance to Problem Statement (10/10)
+### 1. Relevance to Problem Statement 
 * Directly addresses the NCAP and Graded Response Action Plan (GRAP) operational frameworks across Indian metros (**Delhi NCR, Mumbai, Bengaluru, Lucknow, Kolkata**).
 * Replaces static AQI charts with **Ward-Level Source Attribution**, **48-Hour Predictive Dispersion Forecasting**, and **Automated Statutory Enforcement Workflows**.
 
-### 2. Innovation & Creativity (10/10)
+### 2. Innovation & Creativity 
 * **AI Multi-Modal Source Fingerprinting**: Uses Google Gemini 2.5 Flash to analyze chemical ratios ($PM_{2.5}/PM_{10}$, $NO_x/SO_2$) against satellite thermal anomalies to calculate source contributions with confidence scores.
 * **"What-If" Policy Scenario Simulator**: Allows city commanders to test intervention waves (e.g., GRAP IV truck bans, 100+ smog cannon dispatches) and preview projected AQI drops before committing municipal resources.
 * **Auto-Generated Legal Notices**: Dynamically drafts Section 31A legal notices under the Air (Prevention and Control of Pollution) Act, 1981, pre-filled with sensor data and target coordinates.
 
-### 3. Technical Implementation & Architecture (10/10)
+### 3. Technical Implementation & Architecture 
 * **Full-Stack Modular Architecture**: Built with React 19, TypeScript, Express.js backend, and Recharts visualization.
 * **Google Gemini AI SDK Integration**: Native integration with `@google/genai` utilizing structured JSON output schemas for source attribution, enforcement briefing generation, and citizen health advisories.
 * **Resilient Zero-Downtime Fallback**: Server features automated fail-safe handlers that return high-precision baseline atmospheric model calculations if external API keys or rate limits are encountered.
 
-### 4. Business Viability & Real-World Applicability (10/10)
+### 4. Business Viability & Real-World Applicability 
 * **Plug-and-Play ICCC Integration**: Designed for direct deployment within Smart Cities Mission **Integrated Command & Control Centers (ICCC)**.
 * **NCAP Target Tracking**: Built-in benchmark comparison dashboard measuring progress against India's national **40% PM2.5 reduction target for 2026**.
 * **High ROI for Municipalities**: Optimizes anti-smog water cannon fuel costs and maximizes penalty collection from non-compliant construction and industrial offenders.
 
-### 5. Presentation & Clarity (10/10)
+### 5. Presentation & Clarity 
 * **High-Density Dark Command Center UI**: Custom-built for multi-monitor municipal control rooms with high contrast, clear visual hierarchy, and instant tab transitions.
 * **Multi-Lingual Citizen Guidance**: Generates emergency health advisories and IVR voice scripts in 6 languages (**Hindi, Kannada, Tamil, Marathi, Bengali, English**).
 
-### 6. Impact & Scalability (10/10)
+### 6. Impact & Scalability 
 * **Multi-City Analytics Grid**: Seamlessly scales across 131 NCAP non-attainment cities in India.
 * **Public Health Vulnerability Index**: Pinpoints high-risk receptors (schools, hospitals, elderly density zones) near active pollution plumes.
 

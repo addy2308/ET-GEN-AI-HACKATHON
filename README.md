@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Problem Context & Motivation
+##  Problem Context & Motivation
 
 India's air quality crisis is not a single-city issue — it is a widespread national urban crisis. In 2024–25, Delhi NCR recorded an average AQI of 218 (classified as 'Poor' or worse for over 200 days). However, the situation across other metropolitan regions is equally critical:
 * **Mumbai** recorded dangerous AQI levels on over 60 days in 2024.
@@ -25,13 +25,13 @@ City administrations require more than passive monitoring dashboards. They need:
 
 ---
 
-## 💡 Solution Overview: VayuDrishti AI
+##  Solution Overview: VayuDrishti AI
 
 **VayuDrishti AI** is a multi-modal digital twin and command-and-control platform that bridges the gap between raw air quality telemetry and ground-level municipal action. By fusing CAAQMS station telemetry, satellite thermal radiative power (FRP) feeds, meteorological wind vectors, and municipal enforcement logs, VayuDrishti AI shifts urban pollution management from **reactive measurement to proactive evidence-based intervention**.
 
 ---
 
-## 🎯 Alignment with Hackathon Evaluation Criteria
+##  Alignment with Hackathon Evaluation Criteria
 
 ### 1. Relevance to Problem Statement (10/10)
 * Directly addresses the NCAP and Graded Response Action Plan (GRAP) operational frameworks across Indian metros (**Delhi NCR, Mumbai, Bengaluru, Lucknow, Kolkata**).
@@ -62,7 +62,7 @@ City administrations require more than passive monitoring dashboards. They need:
 
 ---
 
-## 🚀 Core Platform Modules
+##  Core Platform Modules
 
 | Module | Route / Component | Capability |
 | :--- | :--- | :--- |
@@ -76,7 +76,7 @@ City administrations require more than passive monitoring dashboards. They need:
 
 ---
 
-## 🛠️ Technology Stack & Dependencies
+##  Technology Stack & Dependencies
 
 * **Frontend**: React 19, TypeScript, Vite, Tailwind CSS v4, Motion (Framer Motion), Lucide React
 * **Charts & Analytics**: Recharts
@@ -85,7 +85,7 @@ City administrations require more than passive monitoring dashboards. They need:
 
 ---
 
-## ⚙️ Project File Structure
+##  Project File Structure
 
 ```text
 vayudrishti-ai/
@@ -114,7 +114,7 @@ vayudrishti-ai/
 
 ---
 
-## ⚡ Quick Start & Setup Instructions
+##  Quick Start & Setup Instructions
 
 ### Prerequisites
 * **Node.js**: v18.x or higher
@@ -147,7 +147,7 @@ npm start
 
 ---
 
-## 🏆 Key Achievements & Business Impact
+##  Key Achievements & Business Impact
 
 1. **Closes the 69% Protocol Gap**: Transforms static CAAQMS readings into actionable municipal tasks.
 2. **Reduces Wasteful Expenditure**: Directs anti-smog equipment only to verified high-impact hotspots.

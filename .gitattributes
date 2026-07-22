@@ -1,0 +1,23 @@
+# Language detection for GitHub statistics
+
+# Mark vendored/auto-generated code
+*.lock linguist-vendored
+bun.lock linguist-vendored
+package-lock.json linguist-vendored
+
+# Ensure source files are detected correctly
+*.tsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
+*.jsx linguist-language=JavaScript
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.html linguist-language=HTML
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.jpg binary

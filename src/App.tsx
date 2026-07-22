@@ -195,7 +195,7 @@ export function App() {
 
       {/* Footer */}
       <footer className="border-t border-white/10 py-6 bg-[#0E0E10] mt-auto">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-xs font-mono text-slate-500 gap-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-xs font-mono text-slate-500 gap-4">
           <div className="flex items-center gap-2">
             <span className="text-amber-500 font-bold">VayuDrishti AI</span>
             <span>&bull;</span>
@@ -204,6 +204,33 @@ export function App() {
           <div className="flex items-center gap-4">
             <span>CPCB / SPCB Telemetry Sync</span>
             <span>NCAP Target Framework 2024-25</span>
+          </div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pt-4 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3">
+          <div className="text-center sm:text-left">
+            <span className="text-slate-300 font-semibold">Built by Adyasa Priyadarshini</span>
+            <div className="flex items-center gap-3 justify-center sm:justify-start mt-1">
+              <a 
+                href="mailto:adyasadgp@gmail.com" 
+                className="hover:text-amber-400 transition-colors"
+                title="Email"
+              >
+                adyasadgp@gmail.com
+              </a>
+              <span>&bull;</span>
+              <a 
+                href="https://www.linkedin.com/in/adyasa-priyadarshini-39343327b/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-amber-400 transition-colors"
+                title="LinkedIn"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+          <div className="text-center text-slate-500">
+            © 2026 All Rights Reserved
           </div>
         </div>
       </footer>

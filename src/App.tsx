@@ -22,6 +22,7 @@ import {
 } from './data/airQualityData';
 
 import { CityInfo, CAAQMSStation, EnforcementAction } from './types';
+import { useTheme } from './ThemeContext';
 import { Sliders, CheckCircle2, X } from 'lucide-react';
 
 export function App() {
@@ -81,7 +82,7 @@ export function App() {
   const currentSatelliteAnomalies = SATELLITE_ANOMALIES.filter((a) => a.cityId === selectedCity.id || !a.cityId);
 
   return (
-    <div className="min-h-screen bg-[#0A0A0B] text-slate-100 flex flex-col font-sans selection:bg-amber-500 selection:text-black">
+    <div className="min-h-screen bg-gradient-to-b dark:from-[#0A0A0B] dark:to-[#0E0E10] light:from-white light:to-slate-50 text-slate-100 dark:text-slate-100 light:text-slate-900 flex flex-col font-sans selection:bg-amber-500 selection:text-black">
       {/* Top Navbar */}
       <Navbar
         cities={cities}
@@ -194,10 +195,10 @@ export function App() {
       )}
 
       {/* Footer */}
-      <footer className="border-t border-white/10 py-6 bg-[#0E0E10] mt-auto">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-xs font-mono text-slate-500 gap-4">
+      <footer className="border-t border-slate-200 dark:border-white/10 light:border-slate-200 py-6 bg-slate-50 dark:bg-[#0E0E10] light:bg-slate-50 mt-auto transition-colors duration-300">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-xs font-mono text-slate-600 dark:text-slate-500 light:text-slate-600 gap-4">
           <div className="flex items-center gap-2">
-            <span className="text-amber-500 font-bold">VayuDrishti AI</span>
+            <span className="text-amber-600 dark:text-amber-500 light:text-amber-600 font-bold">VayuDrishti AI</span>
             <span>&bull;</span>
             <span>National Air Quality Intelligence & Smart City Intervention Platform</span>
           </div>
@@ -206,13 +207,13 @@ export function App() {
             <span>NCAP Target Framework 2024-25</span>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pt-4 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4 pt-4 border-t border-slate-200 dark:border-white/5 light:border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-600 dark:text-slate-400 light:text-slate-600 gap-3">
           <div className="text-center sm:text-left">
-            <span className="text-slate-300 font-semibold">Built by Adyasa Priyadarshini</span>
+            <span className="text-slate-800 dark:text-slate-300 light:text-slate-800 font-semibold">Built by Adyasa Priyadarshini</span>
             <div className="flex items-center gap-3 justify-center sm:justify-start mt-1">
               <a 
                 href="mailto:adyasadgp@gmail.com" 
-                className="hover:text-amber-400 transition-colors"
+                className="hover:text-amber-600 dark:hover:text-amber-400 light:hover:text-amber-600 transition-colors"
                 title="Email"
               >
                 adyasadgp@gmail.com
@@ -222,14 +223,14 @@ export function App() {
                 href="https://www.linkedin.com/in/adyasa-priyadarshini-39343327b/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:text-amber-400 transition-colors"
+                className="hover:text-amber-600 dark:hover:text-amber-400 light:hover:text-amber-600 transition-colors"
                 title="LinkedIn"
               >
                 LinkedIn
               </a>
             </div>
           </div>
-          <div className="text-center text-slate-500">
+          <div className="text-center text-slate-700 dark:text-slate-500 light:text-slate-700">
             © 2026 All Rights Reserved
           </div>
         </div>

@@ -5,7 +5,38 @@
   --font-mono: "JetBrains Mono", monospace;
 }
 
+/* Theme Variables */
+:root,
+[data-theme="dark"] {
+  --bg-primary: #0A0A0B;
+  --bg-secondary: #0E0E10;
+  --bg-tertiary: #151518;
+  --border-light: rgba(255, 255, 255, 0.1);
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #64748b;
+  --accent-primary: #f59e0b;
+  --accent-secondary: #06b6d4;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  --border-light: rgba(15, 23, 42, 0.1);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  --accent-primary: #d97706;
+  --accent-secondary: #0891b2;
+}
+
 body {
-  background-color: #0A0A0B;
-  color: #e2e8f0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
